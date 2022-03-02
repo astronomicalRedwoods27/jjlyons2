@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Root & Anchor :: Contact</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale =  1.0">
+		<link rel="stylesheet" href="rnaStyle.css">
+	</head>
+
+	<body>
+		<div id="wrapper">
+            <header>
+                <h1><a href="index.html">Root and Anchor Media Solutions</a></h1>
+			</header>
+	
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="mission.html">Our Mission</a></li>
+					<li><a href="team.html">Our Team</a></li>
+					<li><a href="media.html">Media</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="merch.html">Merch</a></li>
+                    <li><a id="active" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<main>
+				<h2>Contact Us</h2>
+                <p>
+					To reach out to our support staff with questions about our services, 
+					wanting to schedule a consultation for your project, or to simply reach out to us with any comments or suggestions, 
+					please fill out the following form. If you are trying to reach a specific member of our team, 
+					please specify in the appropriate field.
+                </p>
+				<br>
+                <p>
+					Required fields are marked with an asterisk *.
+				</p>
+                <form action="#" method="post">
+                    <label for="myFName">* First name:</label>
+                    <input type="text" id="myFName" name="myFName" required>
+                    <label for="myLName">* Last name:</label>
+                    <input type="text" id="myLName" name="myLName" required>
+                    <label for="myEmail">* Email Address:</label>
+                    <input type="email" id="myEmail" name="myEmail" required>
+                    <label for="myReason">Reason for Contact:</label>
+                    <select size="1" id="myReason" name="myReason" required>
+						<option value="Services">Service Information</option>
+						<option value="Consultation">Consultation</option>
+						<option value="Comment">Comment or Suggestion</option>
+					</select>
+                    <label for="mySubject">* Subject Line:</label>
+                    <input type="text" id="mySubject" name="Subject" required>
+                    <label for="myBody">* Body of Email:</label>
+                    <textarea id="myBody" name="myBody" rows="4" cols="900" required></textarea>
+                    
+
+                    <input type="submit" value="Submit">
+                  </form>
+			</main>
+
+            <div id="social">
+                <h2>Social Media</h2>
+                <ul>
+					<li><a href="facebook.com/rootandanchor">Facebook</a></li>
+                    <li><a href="twitter.com/rootandanchor">Twitter</a></li>
+                    <li><a href="twitter.com/rootandanchor">Instagram</a></li>
+                    <li><a href="https://feeds.simplecast.com/cYQVc__c">RSS</a></li>
+                    <li><a href="https://open.spotify.com/playlist/4KDmVs47h4vO1ZGA9sa3fs?si=e4a2d54477274403">Spotify</a></li>
+				</ul>
+            </div>
+            
+            <br>
+
+			<footer>
+				Copyright &copy 2022 Root & Anchor Media Solutions, Ltd.
+				<br>
+				<a href="contact@rootandanchor.com">contact@rootandanchor.com</a>
+			</footer>
+		</div>
+	</body>
+</html>
